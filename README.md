@@ -30,4 +30,3 @@
 - cd shoopingapp
 - flutter pub get
 - flutter run
->>>>>>> 6997b634e8696121207736d8ade37eaa82581655
