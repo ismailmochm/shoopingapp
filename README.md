@@ -1,16 +1,33 @@
-# shoppingapp
+# Shopping App (Flutter)
+- Application built with Flutter, featuring product display, cart management, sorting, checkout flow, and error handling.
 
-A new Flutter project.
+# Features
+- Fetch products from API
+- Product list with price
+- Quantity management per product
+- Automatic total price calculation
+- Sorting (Default, Highest Price, Lowest Price, Name)
+- Checkout confirmation dialog
+- Reset / Clear cart
+- API error handling with retry
+- Responsive UI (ScreenUtil)
+- State management with BLoC
 
-## Getting Started
+# Tech Stack & Libraries
+- HTTP - > Client	Dio
+- State Management - > flutter_bloc
+- Dependency Injection ->	GetIt
+- Responsive UI ->	flutter_screenutil
 
-This project is a starting point for a Flutter application.
+# Getting Started
+- Flutter 3.38.4 • channel stable • https://github.com/flutter/flutter.git
+- Tools • Dart 3.10.3 • DevTools 2.51.1
+- Android Studio / VS Code
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Check Flutter installation:
+- flutter doctor
+- git clone https://github.com/ismailmochm/shoopingapp.git
+- cd shoopingapp
+- flutter pub get
+- flutter run
+>>>>>>> 6997b634e8696121207736d8ade37eaa82581655
